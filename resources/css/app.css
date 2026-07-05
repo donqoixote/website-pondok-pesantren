@@ -1,0 +1,31 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-arabic: 'Instrument Sans', 'Traditional Arabic', 'Amiri', serif;
+
+    --color-cream: #faf8f5;
+    --color-forest-50: #f0f7f4;
+    --color-forest-100: #dceee6;
+    --color-forest-200: #b8ddd0;
+    --color-forest-300: #8bc4ad;
+    --color-forest-500: #3d8b6e;
+    --color-forest-600: #2d7359;
+    --color-forest-700: #1f5c47;
+    --color-forest-800: #164a3a;
+    --color-forest-900: #0f3529;
+    --color-gold-300: #e8d48a;
+    --color-gold-400: #d4bc5c;
+    --color-gold-500: #c9a227;
+    --color-gold-600: #a8861f;
+}
+
+.font-arabic {
+    font-family: var(--font-arabic);
+}
